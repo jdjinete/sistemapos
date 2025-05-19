@@ -79,7 +79,7 @@
 					</form>
 			    </div>
 			</div>
-			<div class="text-center copyright">&copy; <a href="http://itsolution24.com">ITsolution24.com</a>, All right reserved.</div>
+			<div class="text-center copyright">&copy; <a href="http://impotechco.com">impotechco.com</a>, All right reserved.</div>
 		</div>
 	</div>
 </div>

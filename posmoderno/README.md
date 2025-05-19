@@ -1,9 +1,9 @@
 # Modern POS v3.3 - Point of Sale with Stock Management System
 
-## Designed and Developed by ITSolution24.com
+## Designed and Developed by impotechco.com
 
-## itsolution24bd@gmail.com
-## Contact +8801737346122
+## jdjinete@gmail.com
+## Contact + 57 3203005638
 
 
 ## Exclusively on Evanto Codecanyon

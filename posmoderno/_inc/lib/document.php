@@ -3,13 +3,13 @@
 | -----------------------------------------------------
 | PRODUCT NAME: 	MODERN POS
 | -----------------------------------------------------
-| AUTHOR:			ITSOLUTION24.COM
+| AUTHOR:			impotechco.COM
 | -----------------------------------------------------
-| EMAIL:			info@itsolution24.com
+| EMAIL:			info@impotechco.com
 | -----------------------------------------------------
-| COPYRIGHT:		RESERVED BY ITSOLUTION24.COM
+| COPYRIGHT:		RESERVED BY impotechco.COM
 | -----------------------------------------------------
-| WEBSITE:			http://itsolution24.com
+| WEBSITE:			http://impotechco.com
 | -----------------------------------------------------
 */
 class Document 
@@ -119,8 +119,8 @@ class Document
 				<section id=\"wrapper\">
 					<h1 style=\"color:red\">Invalid Purchase Code!</h1>
 					<div id=\"content\">
-						<p>Your purchase code is not valid. If you have a valid purchase code then <a style=\"color:blue\" href=\"".root_url()."/revalidate.php\">Click here</a> to revalide that or Claim a valid purchage code here: <a href=\"mailto:itsolution24bd@gmail.com\">itsolution24bd@gmail.com</a> | +8801737346122</p>
-						<p style=\"color:blue;\">&mdash; <a style=\"color:green;\" target=\"_blink\" href=\"http://itsolution24.com\" title=\"ITsolution24.com\">ITsolution24.com</a></p>
+						<p>Your purchase code is not valid. If you have a valid purchase code then <a style=\"color:blue\" href=\"".root_url()."/revalidate.php\">Click here</a> to revalide that or Claim a valid purchage code here: <a href=\"mailto:jdjinete@gmail.com\">jdjinete@gmail.com</a> | + 57 3203005638</p>
+						<p style=\"color:blue;\">&mdash; <a style=\"color:green;\" target=\"_blink\" href=\"http://impotechco.com\" title=\"impotechco.com\">impotechco.com</a></p>
 					</div>
 				</section>
 			</body>

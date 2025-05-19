@@ -3,7 +3,7 @@
 | -----------------------------------------------------
 | PRODUCT NAME: 	Modern POS - Point of sale with Stock Management System
 | -----------------------------------------------------
-| AUTHOR:			ITsolution24.com
+| AUTHOR:			itsolution24.com
 | -----------------------------------------------------
 | EMAIL:			contact@itsolution24.com
 | -----------------------------------------------------

@@ -3,13 +3,13 @@
 | -----------------------------------------------------
 | PRODUCT NAME:     MODERN POS
 | -----------------------------------------------------
-| AUTHOR:           ITSOLUTION24.COM
+| AUTHOR:           impotechco.COM
 | -----------------------------------------------------
-| EMAIL:            info@itsolution24.com
+| EMAIL:            info@impotechco.com
 | -----------------------------------------------------
-| COPYRIGHT:        RESERVED BY ITSOLUTION24.COM
+| COPYRIGHT:        RESERVED BY impotechco.COM
 | -----------------------------------------------------
-| WEBSITE:          http://itsolution24.com
+| WEBSITE:          http://impotechco.com
 | -----------------------------------------------------
 */
 require DIR_VENDOR . 'mike42/escpos-php/autoload.php';

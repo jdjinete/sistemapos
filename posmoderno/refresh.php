@@ -14,7 +14,7 @@ function checkInternetConnection($domain = 'www.google.com')
   return false;
 }
 
-// function checkValidationServerConnection($domain = 'www.itsolution24.com')  
+// function checkValidationServerConnection($domain = 'www.impotechco.com')  
 // {
 //   if($socket =@ fsockopen($domain, 80, $errno, $errstr, 30)) {
 //     fclose($socket);

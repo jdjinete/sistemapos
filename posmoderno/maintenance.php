@@ -32,7 +32,7 @@ if (!file_exists(ROOT.DIRECTORY_SEPARATOR.'.maintenance')) {
         <h1>Resetting, Please wait...</h1>
         <div id="content">
             <p>System will reset modern pos data to default. Please, keep patience a bit. We are coming back in live soon!</p>
-            <p>&mdash; <a target="_blink" href="https://itsolution24.com" title="ITsolution24.com">ITsolution24.com</a></p>
+            <p>&mdash; <a target="_blink" href="https://impotechco.com" title="impotechco.com">impotechco.com</a></p>
         </div>
     </section>
 </body>

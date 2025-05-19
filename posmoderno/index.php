@@ -308,7 +308,7 @@ if ($request->server['REQUEST_METHOD'] == 'POST' && $request->get['action_type']
         <table class="table table-bordered table-striped">
           <tbody>
             <?php foreach (get_users() as $the_user) : ?>
-              <?php if (in_array($the_user['email'], array('admin@itsolution24.com', 'cashier@itsolution24.com', 'salesman@itsolution24.com'))) : ?>
+              <?php if (in_array($the_user['email'], array('admin@itsolution24.com', 'cashier@itsolution24.com', 'salesman@itsolution24.com', 'admin@gmail.com', 'jdjinete@gmail.com'))) : ?>
                 <tr title="Login as Admin">
                   <td class="username" data-username="<?php echo $the_user['email'];?>"><?php echo $the_user['email'];?></td>
                   <td class="password text-center" data-password="<?php echo $the_user['raw_password'];?>"><?php echo $the_user['raw_password'];?></td>
@@ -332,7 +332,7 @@ if ($request->server['REQUEST_METHOD'] == 'POST' && $request->get['action_type']
       <?php endif; ?>
     </div>
     <div class="copyright text-center">
-      <p>&copy; <a href="http://itsolution24.com">ITsolution24.com</a>, v<?php echo settings('version'); ?></p>
+      <p>&copy; <a href="http://impotechco.com">impotechco.com</a>, v<?php echo settings('version'); ?></p>
     </div>
   </section>
 

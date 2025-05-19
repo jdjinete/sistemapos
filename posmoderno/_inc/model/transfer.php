@@ -3,11 +3,11 @@
 | -----------------------------------------------------
 | PRODUCT NAME: 	Modern POS
 | -----------------------------------------------------
-| AUTHOR:			ITSOLUTION24.COM
+| AUTHOR:			itsolution24.COM
 | -----------------------------------------------------
 | EMAIL:			info@itsolution24.com
 | -----------------------------------------------------
-| COPYRIGHT:		RESERVED BY ITSOLUTION24.COM
+| COPYRIGHT:		RESERVED BY itsolution24.COM
 | -----------------------------------------------------
 | WEBSITE:			http://itsolution24.com
 | -----------------------------------------------------

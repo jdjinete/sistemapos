@@ -175,7 +175,7 @@ function (
                     $(win.document.body)
                         .css( 'font-size', '10pt' )
                         .append(
-                            '<div><b><i>Developed & Maintained by: ITsolution24.com</i></b></div>'
+                            '<div><b><i>Developed & Maintained by: impotechco.com</i></b></div>'
                         )
                         .prepend(
                             '<div class="dt-print-heading"><img class="logo" src="'+baseUrl+'/assets/itsolution24/img/logo-favicons/1_logo.png"/><h2 class="title">'+window.store.name+'</h2><p><b><i>From</i> '+window.from +' <i>To</i> '+window.to+'</b><br>Printed on: '+window.formatDate(new Date())+'</p></div>'

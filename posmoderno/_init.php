@@ -470,8 +470,8 @@ if (defined('INSTALLED') && defined('BLOCKED')) { die("<!DOCTYPE html>
 		<section id=\"wrapper\">
 			<h1 style=\"color:red\">The App is Blocked!!!</h1>
 			<div id=\"content\">
-				<p>Your purchase code is not valid. If you have a valid purchase code then claim a valid purchage code here: <a href=\"mailto:itsolution24bd@gmail.com\">itsolution24bd@gmail.com</a> | +8801737346122</p>
-				<p style=\"color:blue;\">&mdash; <a style=\"color:green;\" target=\"_blink\" href=\"http://itsolution24.com\" title=\"ITsolution24.com\">ITsolution24.com</a></p>
+				<p>Your purchase code is not valid. If you have a valid purchase code then claim a valid purchage code here: <a href=\"mailto:jdjinete@gmail.com\">jdjinete@gmail.com</a> | + 57 3203005638</p>
+				<p style=\"color:blue;\">&mdash; <a style=\"color:green;\" target=\"_blink\" href=\"http://impotechco.com\" title=\"impotechco.com\">impotechco.com</a></p>
 			</div>
 		</section>
 	</body>
