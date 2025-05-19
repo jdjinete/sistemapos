@@ -86,8 +86,6 @@ include ("left_sidebar.php");
 								</label>
 								<input type="date" id="startDate" name="startDate" class="form-control" 
 									   ng-model="filter.startDate" 
-									   ng-change="applyFilter()"
-									   ng-init="filter.startDate = todayDate"
 									   value="<?php echo isset($request->get['startDate']) ? $request->get['startDate'] : ''; ?>">
 							</div>
 						</div>
@@ -99,7 +97,6 @@ include ("left_sidebar.php");
 								<input type="date" id="endDate" name="endDate" class="form-control" 
 									   ng-model="filter.endDate" 
 									   ng-change="applyFilter()"
-									   ng-init="filter.endDate = todayDate"
 									   value="<?php echo isset($request->get['endDate']) ? $request->get['endDate'] : ''; ?>">
 							</div>
 						</div>

@@ -30,10 +30,13 @@ function (
     "use strict";
     $scope.todayDate = new Date().toISOString().split('T')[0]; // Fecha actual en formato YYYY-MM-DD
 
-    // Definir el objeto filter
-       $scope.filter = {
-        startDate: $scope.todayDate,
-        endDate: $scope.todayDate
+    var $startDate = window.getParameterByName("startDate");
+    var $endDate = window.getParameterByName("endDate");
+    $scope.todayDate = new Date().toISOString().split('T')[0];
+
+    $scope.filter = {
+        startDate: $startDate ? $startDate : $scope.todayDate,
+        endDate: $endDate ? $endDate : $scope.todayDate
     };
 
     $scope.applyFilter = function() {

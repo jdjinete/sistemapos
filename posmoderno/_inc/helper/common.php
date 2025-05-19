@@ -206,22 +206,36 @@ function to()
 
 function date_range_filter($from, $to)
 {
-	$from = $from ? $from : date('Y-m-d');
-	$to = $to ? $to : date('Y-m-d');
-	$where_query = '';
-	if (($from && ($to == false)) || ($from == $to)) {
-		$day = date('d', strtotime($from));
-		$month = date('m', strtotime($from));
-		$year = date('Y', strtotime($from));
-		$where_query .= " AND DAY(`selling_info`.`created_at`) = {$day}";
-		$where_query .= " AND MONTH(`selling_info`.`created_at`) = {$month}";
-		$where_query .= " AND YEAR(`selling_info`.`created_at`) = {$year}";
-	} else {
-		$from = date('Y-m-d H:i:s', strtotime($from.' '. '00:00:00')); 
-		$to = date('Y-m-d H:i:s', strtotime($to.' '. '23:59:59'));
-		$where_query .= " AND selling_info.created_at >= '{$from}' AND selling_info.created_at <= '{$to}'";
-	}
-	return $where_query;
+    $from = $from ? $from : date('Y-m-d');
+    // Si $to es 'null', null, vacío o false, se usa la fecha actual
+    if ($to === 'null' || $to === null || $to === '' || $to === false) {
+        $to = date('Y-m-d H:i:s');
+    }
+    // Limpiar la parte entre paréntesis y espacios extra
+    if (!empty($from)) {
+        $from_clean = preg_replace('/\\(.*\\)$/', '', $from);
+        $from_clean = trim($from_clean);
+        $from = date('Y-m-d', strtotime($from_clean));
+    }
+    if (!empty($to)) {
+        $to_clean = preg_replace('/\\(.*\\)$/', '', $to);
+        $to_clean = trim($to_clean);
+        $to = date('Y-m-d', strtotime($to_clean));
+    }
+    $where_query = '';
+    if ($from == $to) {
+        $day = date('d', strtotime($from));
+        $month = date('m', strtotime($from));
+        $year = date('Y', strtotime($from));
+        $where_query .= " AND DAY(`selling_info`.`created_at`) = {$day}";
+        $where_query .= " AND MONTH(`selling_info`.`created_at`) = {$month}";
+        $where_query .= " AND YEAR(`selling_info`.`created_at`) = {$year}";
+    } else {
+        $from = date('Y-m-d H:i:s', strtotime($from.' 00:00:00'));
+        $to = date('Y-m-d H:i:s', strtotime($to.' 23:59:59'));
+        $where_query .= " AND selling_info.created_at >= '{$from}' AND selling_info.created_at <= '{$to}'";
+    }
+    return $where_query;
 }
 
 function date_range_sell_log_filter($from, $to)
