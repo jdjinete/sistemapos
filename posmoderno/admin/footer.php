@@ -28,7 +28,7 @@
             <?php echo trans('text_version'); ?>
             <?php echo settings('version'); ?>
     	</div>
-    	<div class="copyright">Copyright © <?php echo date('Y'); ?> <a href="https://NacionalCode.com">Nacional Code</a>, All rights reserved.</div>
+    	<div class="copyright">Copyright © <?php echo date('Y'); ?> <a href="https://impotechco.com">Impotechco</a>, All rights reserved.</div>
     </footer>
 </div>
 <!-- End Wrapper -->
