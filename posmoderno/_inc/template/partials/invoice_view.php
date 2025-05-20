@@ -56,7 +56,7 @@ echo $parser->parse($template, $data);
       <tr class="text-center">
         <td colspan="2">
           <p class="powered-by">
-            <small>&copy; itsolution24.com</small>
+            <small>&copy; impotechco.com</small>
           </p>
         </td>
       </tr>
